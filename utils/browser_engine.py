@@ -12,8 +12,8 @@ class BrowserEngine(object):
     def get_driver(self):
         driver = None
         # 获取配置文件浏览器参数
-        # file_path = os.path.dirname(os.path.abspath("."))+"/MySelenium/config/env.ini"
-        file_path = os.path.dirname(os.path.abspath("."))+"/config/env.ini"
+        file_path = os.path.dirname(os.path.abspath("."))+"/SeleniumForPython/config/env.ini"
+        # file_path = os.path.dirname(os.path.abspath("."))+"/config/env.ini"
         browser_name = ConfigEngine.get_param(file_path,"browserType","browserName")
         # 根据参数启动对应浏览器驱动
         if browser_name == "Chrome":

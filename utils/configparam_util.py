@@ -14,8 +14,8 @@ class ConfigEngine(object):
 
     @staticmethod
     def get_param_default(section,key):
-        # file_path = os.path.dirname(os.path.abspath("."))+"/MySelenium/config/env.ini"
-        file_path = os.path.dirname(os.path.abspath("."))+"/config/env.ini"
+        file_path = os.path.dirname(os.path.abspath("."))+"/SeleniumForPython/config/env.ini"
+        # file_path = os.path.dirname(os.path.abspath("."))+"/config/env.ini"
         config = configparser.ConfigParser()
         config.read(file_path)
         return config.get(section, key)
