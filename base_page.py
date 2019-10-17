@@ -4,6 +4,9 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
 from selenium.common.exceptions import StaleElementReferenceException
+from io import BytesIO
+from PIL import Image, ImageEnhance
+import pytesseract
 import win32clipboard as w
 import win32api
 import win32con
@@ -367,4 +370,63 @@ class BasePage(BaseManager):
         self.key_up(VK_CODE['ctrl'])
         self.key_up(VK_CODE['v'])
 
+    def get_code_by_enhance(self, imgElement):
+        """获取图片验证码"""
+        # 验证码图片保存地址
+        screenImg = "D:/verifyCode.png"
+        # 浏览器页面截图
+        self.driver.get_screenshot_as_file(screenImg)
 
+        # 定位验证码大小
+        location = imgElement.location
+        size = imgElement.size
+
+        left = location['x']
+        top = location['y']
+        right = location['x'] + size['width']
+        bottom = location['y'] + size['height']
+
+        # 从文件读取截图，截取验证码位置再次保存
+        img = Image.open(screenImg).crop((left, top, right, bottom))
+        img.convert('L')  # 转换模式：L|RGB
+        img = ImageEnhance.Contrast(img)  # 增加对比度
+        img = img.enhance(2)  # 增加饱和度
+        img.save(screenImg)
+
+        # 再次读取验证码
+        img = Image.open(screenImg)
+        time.sleep(1)
+        code = pytesseract.image_to_string(img,lang="eng")
+        return code
+
+    def get_code_by_erzhi(self,code_element,erzhi_color_code):
+        """获取定位元素的验证码"""
+        image_location = code_element.location      # 获取验证码在画布中的位置
+        image_size = code_element.size
+        # 截取页面图像并截取掩码码区域图像
+        image = self.driver.get_screenshot_as_png()
+        im = Image.open(BytesIO(image))
+        imag_code = im.crop((image_location['x'], image_location['y'], image_location['x']+image_size['width'], image_location['y']+image_size['height']))  # 从截屏中获取图片大小的图像
+        im_erzhihua = self.erzhihua(imag_code, erzhi_color_code)
+        result = pytesseract.image_to_string(im_erzhihua, lang='eng')
+        return result
+
+    def erzhihua(self,image, threshold):
+        """图片二值化"""
+        image = image.convert('L')
+        table = []
+        for i in range(256):
+            if i < threshold:
+                table.append(0)
+            else:
+                table.append(1)
+        return image.point(table, '1')
+
+if __name__ == "__main__":
+    page = BasePage()
+    page.driver.get("http://172.21.201.85:7776/ent/login")
+    codeElement = page.driver.find_element_by_id("imgVerify")
+    code1 = page.get_code_by_erzhi(codeElement,100)
+    code2 = page.get_code_by_enhance(codeElement)
+    print("code1:%s"%code1)
+    print("code2:%s"%code2)
