@@ -43,6 +43,6 @@ if __name__ =='__main__':
     finally:
         fp.close()
         # 关闭浏览器
-        driver.close();
+        driver.quit();
 
 

@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fec3096-6b94-4c44-a477-26f5519b80ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case/test_baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTMLTestRunner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestRunner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/log.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/log.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/browser_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/browser_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/configparam_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/configparam_util.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MySelennium$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1570517606985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/SeleniumForPython$run_main.coverage" NAME="run_main Coverage Results" MODIFIED="1571278386029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MySelennium$browser_engine.coverage" NAME="browser_engine Coverage Results" MODIFIED="1569461009226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1571129973199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$Unittests_for_test_baidu_TestBaidu.coverage" NAME="Unittests for test_baidu.TestBaidu Coverage Results" MODIFIED="1571110540025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
@@ -116,37 +114,53 @@
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="ini" value="1" />
-          <entry key="py" value="33" />
+          <entry key="ini" value="7" />
+          <entry key="py" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Ini" value="1" />
-          <entry key="Python" value="33" />
+          <entry key="Ini" value="7" />
+          <entry key="Python" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="42" />
-          <entry key="py" value="4131" />
+          <entry key="ini" value="8" />
+          <entry key="py" value="4218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Ini" value="8" />
           <entry key="PLAIN_TEXT" value="42" />
-          <entry key="Python" value="4131" />
+          <entry key="Python" value="4218" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#15#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,8 +185,6 @@
       <list>
         <option value="$PROJECT_DIR$/utils/config_param.py" />
         <option value="$PROJECT_DIR$/utils/log_util.py" />
-        <option value="$PROJECT_DIR$/config/log.ini" />
-        <option value="$PROJECT_DIR$/config/env.ini" />
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/test/test_class.py" />
         <option value="$PROJECT_DIR$/utils/logger_util.py" />
@@ -180,15 +192,17 @@
         <option value="$PROJECT_DIR$/page/BasePage.py" />
         <option value="$PROJECT_DIR$/case/BaseCase.py" />
         <option value="$PROJECT_DIR$/BaseCase.py" />
-        <option value="D:/Program Files/Python37/Lib/unittest/case.py" />
         <option value="$PROJECT_DIR$/utils/configparam_util.py" />
-        <option value="$PROJECT_DIR$/utils/browser_engine.py" />
         <option value="$PROJECT_DIR$/base_manager.py" />
+        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/base_page.py" />
+        <option value="D:/Program Files/Python37/Lib/unittest/case.py" />
         <option value="$PROJECT_DIR$/case/test_baidu.py" />
         <option value="$PROJECT_DIR$/base_case.py" />
-        <option value="$PROJECT_DIR$/TestRunner.py" />
+        <option value="$PROJECT_DIR$/utils/browser_engine.py" />
         <option value="$PROJECT_DIR$/run_main.py" />
-        <option value="$PROJECT_DIR$/base_page.py" />
+        <option value="$PROJECT_DIR$/config/log.ini" />
+        <option value="$PROJECT_DIR$/config/env.ini" />
       </list>
     </option>
   </component>
@@ -218,6 +232,11 @@
             <path>
               <item name="SeleniumForPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="SeleniumForPython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SeleniumForPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SeleniumForPython" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestRunner">
+  <component name="RunManager" selected="Python.run_main">
     <configuration name="BasePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MySelennium" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -318,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MySelennium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -326,12 +345,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,18 +376,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.browser_engine" />
-      <item itemvalue="Python.test_class" />
       <item itemvalue="Python.TestRunner" />
       <item itemvalue="Python.BasePage" />
       <item itemvalue="Python tests.Unittests for test_baidu.TestBaidu" />
+      <item itemvalue="Python.run_main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_main" />
         <item itemvalue="Python.TestRunner" />
         <item itemvalue="Python tests.Unittests for test_baidu.TestBaidu" />
         <item itemvalue="Python.BasePage" />
         <item itemvalue="Python.browser_engine" />
-        <item itemvalue="Python.test_class" />
       </list>
     </recent_temporary>
   </component>
@@ -392,13 +411,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="350" y="187" width="925" height="574" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2687428" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27450982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32882884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.4054054" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.4054054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -415,6 +435,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27450982" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.4054054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39864865" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.29490617" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32882884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -447,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/log.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -461,77 +497,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/browser_engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="77" selection-start-line="14" selection-start-column="77" selection-end-line="14" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/env.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" selection-start-line="8" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/logger_util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files/Python37/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3344">
-          <caret line="401" column="11" lean-forward="true" selection-start-line="401" selection-start-column="11" selection-end-line="401" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="53" />
-          <folding>
-            <element signature="e#1#37#0" expanded="true" />
-            <marker date="1571129966699" expanded="true" signature="148:149" ph="..." />
-            <marker date="1571129966699" expanded="true" signature="148:153" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/configparam_util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#74#120#0" expanded="true" />
-            <marker date="1571129755097" expanded="true" signature="227:236" ph="..." />
-            <marker date="1571129755097" expanded="true" signature="472:473" ph="..." />
-            <marker date="1571129755097" expanded="true" signature="498:507" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_baidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -553,29 +522,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3116">
           <caret line="164" column="25" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="590" selection-start-line="590" selection-end-line="590" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/logger_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/selenium/webdriver/ie/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
-            <marker date="1571216084995" expanded="true" signature="520:521" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="520:529" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="1108:1109" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3201:3206" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3440:3445" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3617:3622" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3712:3717" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3780:3789" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="3888:3897" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="6362:6371" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="6586:6595" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="7077:7116" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="7579:7584" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="8271:8276" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="8527:8532" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="9072:9077" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="9452:9457" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="9594:9626" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="10140:10167" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="10311:10316" ph="..." />
-            <marker date="1571216084995" expanded="true" signature="10439:10535" ph="..." />
+            <marker date="1571277084109" expanded="true" signature="148:149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="e#74#120#0" expanded="true" />
+            <marker date="1571129755097" expanded="true" signature="227:236" ph="..." />
+            <marker date="1571129755097" expanded="true" signature="472:473" ph="..." />
+            <marker date="1571129755097" expanded="true" signature="498:507" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#15#36#0" expanded="true" />
           </folding>
         </state>
       </provider>

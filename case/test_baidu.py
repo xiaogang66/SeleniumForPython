@@ -7,8 +7,10 @@ class TestBaidu(BaseCase):
         """测试登录"""
         self.logger.info("aaa")
         print(1)
+
     def test_bb(self):
         """测试退出"""
+        self.logger.info("bbb")
         print(2)
 
 

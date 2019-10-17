@@ -17,11 +17,11 @@ class BrowserEngine(object):
         browser_name = ConfigEngine.get_param(file_path,"browserType","browserName")
         # 根据参数启动对应浏览器驱动
         if browser_name == "Chrome":
-            driver = webdriver.Chrome()
+            driver = webdriver.Chrome(executable_path="drivers/chromedriver.exe")
         elif browser_name == "Firefox":
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(executable_path="drivers/geckodriver.exe")
         elif browser_name == "Ie":
-            driver = webdriver.Ie()
+            driver = webdriver.Ie(executable_path="drivers/IEDriverServer.exe")
         return driver
 
 
