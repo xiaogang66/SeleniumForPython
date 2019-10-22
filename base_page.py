@@ -280,6 +280,14 @@ class BasePage(BaseManager):
         """鼠标右击"""
         self.actionChains.context_click(element).perform()
 
+    def drag_by_element(self,source_element,target_element):
+        """将按钮拖拽到指定元素"""
+        self.actionChains.drag_and_drop(source_element, target_element).perform()
+
+    def drag_by_offset(self,source_element,x,y):
+        """将按钮拖拽到具体坐标（x,y）"""
+        self.actionChains.drag_and_drop_by_offset(source_element,x,y).perform()
+
     def click_by_js(self,element):
         """利用js点击"""
         self.driver.execute_script("arguments[0].click()", element)
@@ -372,15 +380,12 @@ class BasePage(BaseManager):
 
     def get_code_by_enhance(self, imgElement):
         """获取图片验证码"""
-        # 验证码图片保存地址
-        screenImg = "D:/verifyCode.png"
-        # 浏览器页面截图
-        self.driver.get_screenshot_as_file(screenImg)
+        screenImg = "D:/verifyCode.png"     # 验证码图片保存地址
+        self.driver.get_screenshot_as_file(screenImg)            # 浏览器页面截图
 
         # 定位验证码大小
         location = imgElement.location
         size = imgElement.size
-
         left = location['x']
         top = location['y']
         right = location['x'] + size['width']

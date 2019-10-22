@@ -9,7 +9,6 @@ from base_manager import BaseManager
     主入口运行类：执行用例并生成报告
 """
 
-
 # 设置报告名称
 report_path = os.path.dirname(os.path.abspath('.')) + '/SeleniumForPython/reports/'
 #获取当前时间
