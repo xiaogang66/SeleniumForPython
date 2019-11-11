@@ -5,6 +5,7 @@ from utils.logger_util import Logger
 from utils.browser_engine import BrowserEngine
 import time
 import unittest
+import requests
 
 class TestMethod(unittest.TestCase):
     def test_log_method(self):
@@ -16,6 +17,7 @@ class TestMethod(unittest.TestCase):
         test = BrowserEngine()
         driver = test.get_driver()
         driver.get("https://www.baidu.com")
+
 # if __name__ == "__main__":
 #     testmethodclass  = TestMethod()
 #     # testmethodclass.test_log_method()

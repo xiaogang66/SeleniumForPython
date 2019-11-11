@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7fec3096-6b94-4c44-a477-26f5519b80ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_class.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +18,18 @@
     <SUITE FILE_PATH="coverage/MySelennium$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1570517606985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$Unittests_in_test_baidu_py.coverage" NAME="Unittests in test_baidu.py Coverage Results" MODIFIED="1571729376656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$run_main.coverage" NAME="run_main Coverage Results" MODIFIED="1571730008047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeleniumForPython$Unittests_for_test_class_TestMethod_test_open_browser.coverage" NAME="Unittests for test_class.TestMethod.test_open_browser Coverage Results" MODIFIED="1572329392642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MySelenium$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1570523323502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SeleniumForPython$test_headless.coverage" NAME="test_headless Coverage Results" MODIFIED="1572328173644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/MySelenium$BasePage.coverage" NAME="BasePage Coverage Results" MODIFIED="1570528198473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/MySelennium$log_util.coverage" NAME="log_util Coverage Results" MODIFIED="1569746885458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/SeleniumForPython$Unittests_in_test_class_py.coverage" NAME="Unittests in test_class.py Coverage Results" MODIFIED="1572329495116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MySelennium$browser_engine.coverage" NAME="browser_engine Coverage Results" MODIFIED="1569461009226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1571129973199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$excel_util2.coverage" NAME="excel_util2 Coverage Results" MODIFIED="1571388498247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$Unittests_for_test_baidu_TestBaidu.coverage" NAME="Unittests for test_baidu.TestBaidu Coverage Results" MODIFIED="1571110540025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$excel_util.coverage" NAME="excel_util Coverage Results" MODIFIED="1571383864605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/SeleniumForPython$requests_test.coverage" NAME="requests_test Coverage Results" MODIFIED="1572329580429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/MySelennium$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1570517801903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SeleniumForPython$test_character.coverage" NAME="test_character Coverage Results" MODIFIED="1571730443483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/MySelenium$browser_engine.coverage" NAME="browser_engine Coverage Results" MODIFIED="1570526707600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -111,7 +114,9 @@
     <session id="1035828724">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.52" value="1" />
@@ -120,78 +125,44 @@
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ini" value="8" />
           <entry key="log" value="3" />
-          <entry key="py" value="117" />
+          <entry key="py" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Ini" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="117" />
+          <entry key="Python" value="128" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="46" />
           <entry key="ini" value="18" />
-          <entry key="py" value="8155" />
+          <entry key="py" value="8522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="18" />
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="8155" />
+          <entry key="Python" value="8522" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="287" column="29" lean-forward="true" selection-start-line="287" selection-start-column="29" selection-end-line="287" selection-end-column="29" />
-              <folding>
-                <element signature="e#1#37#0" expanded="true" />
-                <marker date="1571733139216" expanded="true" signature="598:599" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="598:607" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="1186:1187" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3279:3284" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3518:3523" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3695:3700" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3790:3795" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3858:3867" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="3966:3975" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="6440:6449" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="6664:6673" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="7155:7194" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="7657:7662" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="8349:8354" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="8495:8733" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="8924:8929" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="9469:9474" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="9849:9854" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="9991:10023" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="10537:10564" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="10708:10713" ph="..." />
-                <marker date="1571733139216" expanded="true" signature="10836:10932" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -227,7 +198,6 @@
         <option value="$PROJECT_DIR$/utils/config_param.py" />
         <option value="$PROJECT_DIR$/utils/log_util.py" />
         <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/test/test_class.py" />
         <option value="$PROJECT_DIR$/utils/logger_util.py" />
         <option value="$PROJECT_DIR$/BaseManager.py" />
         <option value="$PROJECT_DIR$/page/BasePage.py" />
@@ -252,6 +222,9 @@
         <option value="$PROJECT_DIR$/case/test_character.py" />
         <option value="$PROJECT_DIR$/run_main.py" />
         <option value="$PROJECT_DIR$/base_page.py" />
+        <option value="$PROJECT_DIR$/case/test_headless.py" />
+        <option value="$PROJECT_DIR$/test/test_class.py" />
+        <option value="$PROJECT_DIR$/case/requests_test.py" />
       </list>
     </option>
   </component>
@@ -261,9 +234,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="422" />
+    <option name="y" value="124" />
     <option name="width" value="925" />
     <option name="height" value="643" />
   </component>
@@ -292,23 +265,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SeleniumForPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SeleniumForPython" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python/InterfaceAutomation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -334,8 +307,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_character">
-    <configuration name="excel_util" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.requests_test">
+    <configuration name="requests_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MySelennium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,56 +316,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/excel_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excel_util2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MySelennium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\lyg\WorkSpace\git\SeleniumForPython\utils\excel_util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MySelennium" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/requests_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -423,35 +352,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_baidu.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test_headless" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MySelennium" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/test_headless.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_class.TestMethod.test_open_browser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MySelennium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_baidu.py&quot;" />
+      <option name="_new_target" value="&quot;test_class.TestMethod.test_open_browser&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_class.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MySelennium" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_class.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_main" />
-      <item itemvalue="Python.excel_util" />
-      <item itemvalue="Python.excel_util2" />
-      <item itemvalue="Python tests.Unittests in test_baidu.py" />
       <item itemvalue="Python.test_character" />
+      <item itemvalue="Python.test_headless" />
+      <item itemvalue="Python tests.Unittests for test_class.TestMethod.test_open_browser" />
+      <item itemvalue="Python tests.Unittests in test_class.py" />
+      <item itemvalue="Python.requests_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.requests_test" />
+        <item itemvalue="Python tests.Unittests in test_class.py" />
+        <item itemvalue="Python tests.Unittests for test_class.TestMethod.test_open_browser" />
+        <item itemvalue="Python.test_headless" />
         <item itemvalue="Python.test_character" />
-        <item itemvalue="Python.run_main" />
-        <item itemvalue="Python tests.Unittests in test_baidu.py" />
-        <item itemvalue="Python.excel_util2" />
-        <item itemvalue="Python.excel_util" />
       </list>
     </recent_temporary>
   </component>
@@ -475,18 +441,41 @@
     <history-entry file="Unittests_in_test_baidu_py - 2019.10.22 at 15h 29m 39s.xml">
       <configuration name="Unittests in test_baidu.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_test_class_TestMethod_test_open_browser - 2019.10.29 at 14h 09m 54s.xml">
+      <configuration name="Unittests for test_class.TestMethod.test_open_browser" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 10m 31s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 10m 35s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 10m 36s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 10m 37s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 10m 38s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 11m 24s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_class_py - 2019.10.29 at 14h 11m 38s.xml">
+      <configuration name="Unittests in test_class.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="422" y="124" width="925" height="643" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37946942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24567474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32882884" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.43274853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39544237" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2707775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -503,13 +492,13 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37946942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32882884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.43274853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39544237" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.43274853" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2707775" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -589,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/browser_engine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -686,24 +668,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/picture_util.py" />
-    <entry file="file://$PROJECT_DIR$/case/TestInterface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#169#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/case/TestInterface.py" />
     <entry file="file://$PROJECT_DIR$/case/test_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -714,62 +680,76 @@
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_character.py" />
     <entry file="file://$PROJECT_DIR$/base_case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="274">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_character.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="287" column="29" lean-forward="true" selection-start-line="287" selection-start-column="29" selection-end-line="287" selection-end-column="29" />
+        <state relative-caret-position="448">
+          <caret line="287" column="29" selection-start-line="287" selection-start-column="29" selection-end-line="287" selection-end-column="29" />
           <folding>
             <element signature="e#1#37#0" expanded="true" />
-            <marker date="1571733139216" expanded="true" signature="598:599" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="598:607" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="1186:1187" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3279:3284" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3518:3523" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3695:3700" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3790:3795" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3858:3867" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="3966:3975" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="6440:6449" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="6664:6673" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="7155:7194" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="7657:7662" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="8349:8354" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="8495:8733" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="8924:8929" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="9469:9474" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="9849:9854" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="9991:10023" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="10537:10564" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="10708:10713" ph="..." />
-            <marker date="1571733139216" expanded="true" signature="10836:10932" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="598:599" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="598:607" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="1186:1187" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3279:3284" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3518:3523" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3695:3700" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3790:3795" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3858:3867" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="3966:3975" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="6440:6449" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="6664:6673" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="7155:7194" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="7657:7662" ph="..." />
+            <marker date="1571733254500" expanded="true" signature="8349:8354" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/test_headless.py" />
+    <entry file="file://$PROJECT_DIR$/test/test_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#26#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case/requests_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

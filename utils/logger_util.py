@@ -17,7 +17,7 @@ class Logger(object):
         # logger添加handler
         log_console = ConfigEngine.get_param_default("logSetting", "logConsole")
         if "file" in log_console:
-            fh = logging.FileHandler(log_name)
+            fh = logging.FileHandler(log_name,encoding='utf-8')
             fh.setLevel(logging.INFO)
             fh.setFormatter(formatter)
             self.logger.addHandler(fh)
