@@ -9,6 +9,7 @@ class BaseCase(unittest.TestCase,BaseManager):
     @classmethod
     def setUpClass(cls):
         """执行用例前回到首页，同时每个入口记录类名"""
+		base_page.default_frame()
         cls.logger = cls.get_logger()
         cls.logger.info("-----执行用例类：" + cls.__name__)
 
